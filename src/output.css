@@ -631,6 +631,10 @@ video {
   width: 4rem;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -665,6 +669,10 @@ video {
   align-self: flex-start;
 }
 
+.rounded-full {
+  border-radius: 9999px;
+}
+
 .border {
   border-width: 1px;
 }
@@ -694,6 +702,11 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\#16181c\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 24 28 / var(--tw-bg-opacity, 1));
+}
+
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -702,6 +715,16 @@ video {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .text-3xl {
