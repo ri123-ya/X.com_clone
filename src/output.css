@@ -1040,6 +1040,11 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:mx-16 {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
   .md\:block {
     display: block;
   }
