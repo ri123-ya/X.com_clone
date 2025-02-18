@@ -19,7 +19,7 @@
             <div class="sidebar flex items-end flex-col sticky top-0 ">
                 <div class="logo invert my-4 self-start mx-2 md:mx-16">
                     <svg viewBox="0 0 24 24" aria-hidden="true"
-                        class=" w-8 m-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                        class=" w-6 m-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
                         <g>
                             <path
                                 d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
@@ -29,7 +29,7 @@
                 </div>
 
 
-                <ul class="flex flex-col text-2xl space-y-3 md:px-11 font-bold w-full">
+                <ul class="flex flex-col text-xl space-y-3 md:px-11 font-bold w-full">
                     <li
                         class="flex  md:justify-start items-center gap-3 justify-center  md:w-fit mr-4 hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
                         <span class="material-symbols-outlined">home</span>
@@ -99,13 +99,11 @@
 
         <div class="second w-full border-[1px] border-x-gray-600 border-y-black">
 
-            <div class="top flex p-3 sticky top-0 bg-black backdrop-blur-3xl opacity-80 ">
+            <div class="top flex p-3 sticky top-0 bg-black backdrop-blur-3xl opacity-90 ">
                 <div class="absolute w-16 h-1 rounded-full bg-blue-500 bottom-0 left-[19%] z-10"></div>
                 <div class="left bg-red-3001 w-1/2 flex justify-center font-bold text-lg">For You</div>
                 <div class="right bg-green-3001 w-1/2 flex justify-center font-bold text-lg">Following</div>
-                <div class="settings mx-2"><span class="material-symbols-outlined">
-                        settings
-                    </span></div>
+                <div class="settings mx-2"><span class="material-symbols-outlined">settings</span></div>
             </div>
             <div class="h-[1px] w-full bg-gray-700"></div>
             <div class="whatishapp flex gap-4 my-3">
@@ -161,7 +159,7 @@
                 <div class="post border-[1px] border-y-gray-600 border-x-0  ">
                     <div class="flex">
                         <div class="image m-4">
-                            <img class="w-16" src="" alt="">
+                            <img class="w-16" src="https://pbs.twimg.com/profile_images/1874558173962481664/8HSTqIlD_400x400.jpg" alt="">
                         </div>
                         <div class="content my-3">
                             <span class="font-bold hover:underline cursor-pointer text-white">Elon Musk</span> <span
@@ -299,12 +297,14 @@
         </div>
 
         <div class="third w-full hidden md:block">
-            <div class="search">
-                <input type="text" class="w-1/2 m-3 rounded-full bg-[#16181c] text-white px-4 py-2" placeholder="Search">
+            <div class="search sticky top-0 flex gap-3 w-1/2 m-3 rounded-full border border-x-gray-600 border-y-gray-600 text-white px-4 py-2">
+                <span class="material-symbols-outlined text-sm text-gray-600">search</span>
+                <input type="text" class="bg-transparent border-none outline-none text-white w-full"  placeholder="Search">
             </div>
     
-            <div class="whats sticky top-0 m-3 bg-[#16181c] w-1/2 py-5 rounded-xl space-y-3">
-                <h1 class="text-xl font-bold px-3">Whats Happening</h1>
+            <div class="whats sticky top-3 m-3 bg-[#16181c] w-1/2 py-5 rounded-xl space-y-3">
+            <!-- <div class="whats sticky top-0 m-3  border border-x-gray-600 border-y-gray-600  w-2/3 py-5 rounded-xl space-y-3"> -->
+                <h1 class="text-2xl font-bold px-3">Whats Happening</h1>
                 <div class="item p-3 hover:bg-gray-800 cursor-pointer px-3">
                     <div class="text-sm text-gray-200">Trending in India</div>
                     <div class="font-bold">#AI</div>
@@ -331,7 +331,7 @@
             </div>
     
             <div class="who sticky top-[50vh] m-3 bg-[#16181c] w-1/2 py-5 rounded-xl space-y-1">
-                <h1 class="text-xl font-bold px-3">Who to Follow</h1>
+                <h1 class="text-2xl font-bold px-3">Who to Follow</h1>
     
                 <div class="item p-3 px-3 space-y-4">
     
@@ -356,10 +356,34 @@
                         </div>
     
                     </div>
+                    <div class="item p-3 items-center gap-2 flex justify-between hover:bg-gray-800 cursor-pointer">
+                        <div class="flex gap-3">
+    
+                            <div class="p1"><img class="w-12 h-12"
+                                    src="https://pbs.twimg.com/profile_images/989513875124117504/UNMIb20k_bigger.jpg"
+                                    alt="vercel"></div>
+                            <div class="p2 ">
+                                <div>Shad.js</div>
+                                <div class="text-gray-500">@shad</div>
+                            </div>
+                        </div>
+    
+                        <div class="p3">
+                            <button class="bg-white text-black px-5 py-2 rounded-full font-bold">Follow</button>
+                        </div>
+    
+                    </div>
                 </div>
                 <div class="text-blue-600 px-3 cursor-pointer hover:underline my-5">Show More</div>
-    
-    
+            </div>
+            <div class="terms sticky top-[84vh] m-3 text-xs text-gray-500 px-3  w-1/2 py-5   space-y-1">
+                <span class="hover:underline cursor-pointer mr-2">Terms of Service</span>
+                <span class="hover:underline cursor-pointer mr-2">Privacy Policy</span>
+                <span class="hover:underline cursor-pointer mr-2">Cookie Policy</span>
+                <span class="hover:underline cursor-pointer mr-2">Accessibility</span>
+                <span class="hover:underline cursor-pointer mr-2">Ads info</span>
+                <span class="hover:underline cursor-pointer mr-2">More</span>
+                <span class="hover:underline cursor-pointer mr-2">© 2024 X Corp.</span>
             </div>
         </div>
     </div>
